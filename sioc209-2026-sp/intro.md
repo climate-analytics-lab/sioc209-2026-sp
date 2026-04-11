@@ -39,15 +39,15 @@ By the end of the course, students should be able to:
 | | Thu 2 Apr | [**What is deep learning?**](01_intro/02_course_overview.ipynb)<br>*Neural network intuition; supervised vs. unsupervised; key terminology* | | |
 | 2 | Tue 7 Apr | [**Data collection and preparation**](01_intro/03_data_collection_and_prep.ipynb)<br>*Pandas; handling missing data; train/test splits* | | |
 | | Thu 9 Apr | [**Feature engineering**](01_intro/04_feature_engineering.ipynb)<br>*xarray for multi-dimensional data; spatial and temporal features; convolutions* | | |
-| 3 | Tue 14 Apr | [**Regression: GPs and RFs**](02_regression/05_nonlinear_regression.ipynb)<br>*Decision trees; random forests; Gaussian process posterior; kernel functions; uncertainty quantification* | | |
-| | Thu 16 Apr | [**Regression: ANNs**](02_regression/06_neural_networks.ipynb)<br>*Activation functions; gradient descent; backpropagation; MLP regression* | | 🎥 Remote |
+| 3 | Tue 14 Apr | [**Regression: ANNs**](02_regression/06_neural_networks.ipynb)<br>*Activation functions; gradient descent; backpropagation; MLP regression* | | |
+| | Thu 16 Apr | **No Lecture** | | 🎥 Remote |
 | 4 | Tue 21 Apr | [**Regression: Deep NNs**](02_regression/07_deep_neural_networks.ipynb)<br>*RNNs, LSTMs, Transformers; CNNs for spatial data* | | |
 | | Thu 23 Apr | [**ClimateBench**](applications/ClimateBench/assignment_1.ipynb)<br>*Climate model emulation; applying regression models to real-world emissions data* | Assignment 1 set | |
 | 5 | Tue 28 Apr | [**Classification**](03_classification/08_cnn_classification.ipynb)<br>*CNNs for images; softmax and cross-entropy; confusion matrices; transfer learning* | | 🎥 Remote |
-| | Thu 30 Apr | [**Ship classification from Kelvin wakes**](applications/ShipWake/ship_classification.ipynb)<br>*Inverse problem framing; LeNet-5 and ResNet-18; regression from simulated wave fields* | Assignment 1 due<br>Assignment 2 set | |
+| | Thu 30 Apr | **No Lecture** | Assignment 1 due<br>Assignment 2 set | |
 | 6 | Tue 5 May | [**Object detection and segmentation**](04_detection/09_object_detection.ipynb)<br>*YOLO, Faster R-CNN; U-Net; bounding boxes; IoU; semantic segmentation* | | |
-| | Thu 7 May | **Acoustic detection**<br>*Detecting marine mammals from hydrophone recordings; spectrograms and CNNs* | Assignment 2 due Mon 11 May | 👥 Michaela (TBD) |
-| 7 | Tue 12 May | **Physics-informed neural networks**<br>*Encoding physical constraints in the loss function; solving PDEs with neural networks* | | 👥 Peter Gerstoft (TBD) |
+| | Thu 7 May | **Acoustic detection**<br>*Detecting marine mammals from hydrophone recordings; spectrograms and CNNs* | Assignment 2 due Mon 11 May | 👥 Michaela |
+| 7 | Tue 12 May | **Physics-informed neural networks**<br>*Encoding physical constraints in the loss function; solving PDEs with neural networks* | | 👥 Peter Gerstoft |
 | | Thu 14 May | [**PINN example / KANs**](05_physical/10_KAN.ipynb)<br>*Worked PINN examples; Kolmogorov-Arnold Networks; interpretable function fitting* | Assignment 3 set | |
 | 8 | Tue 19 May | [**Clustering**](06_unsupervised_learning/11_clustering.ipynb)<br>*K-means; hierarchical clustering; self-organizing maps; elbow method; silhouette scores* | | |
 | | Thu 21 May | [**Dimensionality reduction: AE, Tile2Vec**](06_unsupervised_learning/12_dimensionality_reduction.ipynb)<br>*PCA; t-SNE; autoencoders; contrastive learning for spatial embeddings* | Assignment 3 due | |

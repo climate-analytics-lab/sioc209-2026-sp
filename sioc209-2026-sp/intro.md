@@ -48,7 +48,7 @@ By the end of the course, students should be able to:
 | 6 | Tue 5 May | [**Object detection and segmentation**](04_detection/09_object_detection.ipynb)<br>*YOLO, Faster R-CNN; U-Net; bounding boxes; IoU; semantic segmentation* | | |
 | | Thu 7 May | **Acoustic detection**<br>*Detecting marine mammals from hydrophone recordings; spectrograms and CNNs* | Assignment 2 due Mon 11 May | 👥 Michaela (TBD) |
 | 7 | Tue 12 May | **Physics-informed neural networks**<br>*Encoding physical constraints in the loss function; solving PDEs with neural networks* | | 👥 Peter Gerstoft (TBD) |
-| | Thu 14 May | [**PINN example / KANs**](05_physical/10_KAN.ipynb)<br>*Worked PINN examples; Kolmogorov-Arnold Networks; interpretable function fitting* | Assignment 3 set | |
+| | Thu 14 May | [**PINN example**](05_physical/10_physics_informed_NNs.ipynb)<br>*Worked PINN examples* | Assignment 3 set | |
 | 8 | Tue 19 May | [**Clustering**](06_unsupervised_learning/11_clustering.ipynb)<br>*K-means; hierarchical clustering; self-organizing maps; elbow method; silhouette scores* | | |
 | | Thu 21 May | [**Dimensionality reduction: AE, Tile2Vec**](06_unsupervised_learning/12_dimensionality_reduction.ipynb)<br>*PCA; t-SNE; autoencoders; contrastive learning for spatial embeddings* | Assignment 3 due | |
 | 9 | Tue 26 May | [**Learning satellite images**](06_unsupervised_learning/13_contrastive_learning_example.ipynb)<br>*SimCLR; Tile2Vec; unsupervised cloud morphology classification* | Project set | |

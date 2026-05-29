@@ -214,3 +214,7 @@ pyrightconfig.json
 
 # Claude
 CLAUDE.md
+COURSE_PLAN.md
+
+# Don't track exam questions
+_exam_drafts

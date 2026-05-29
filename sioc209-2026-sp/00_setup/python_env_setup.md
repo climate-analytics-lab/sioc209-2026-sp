@@ -8,7 +8,7 @@ This section will help you figure out how to run scripts using Python. As you ma
 In this context, environment refers to the base Python interpreter, which translates the code you write in Python to commands computers can understand and execute, plus any other required libraries and modules (i.e., code written by others that has conveniently been shared with you and which generally makes coding more straightforward). These libraries allow you to, e.g., efficiently carry out numerical operations (Numpy), effectively handle data structure and data analysis tasks (Pandas), and even implement state of the art machine learning solutions (SciKit Learn, Tensorflow, PyTorch).
 
 Today, we'll be looking at three options for running Python code:
-1. Google Colaboratory (oftened shortened to Colab)
+1. Google Colaboratory (often shortened to Colab)
 > Colab is a service run by Google, and gives you (limited) access to their CPUs, GPUs, and even TPUs! Colab is based on Jupyter Notebooks, and is meant to allow you to write and execute Python code from within your browser free of charge. It has many popular machine learning libraries installed, and has APIs to interact with Google services (e.g., Drive). Colab, however, requires you to log in with a Google account, which you may understandably may not have or want to have.  
 >> *Plusses*: Free of Charge, Integrates with Google services, Integrates with GitHub, *Requires no setup on your end for most tasks*    
 >> *Minuses*: Your code will be stored and run on Google servers, Requires the use of a Google Account, Limited Resources, Limited to Interactive Scripts  
@@ -61,13 +61,13 @@ Try it out by yourself with the following notebook:
 Binder is a bit more complicated to use than Colab, but it is also more powerful. We won't go into the details of how to create a Binder environment, but we will go over how to use one.
 
 Let's start by opening the Binder environment for the EuroSciPy 2022 tutorial [Machine Learning for Science Reproducibility](https://mybinder.org/v2/gh/JesperDramsch/ml-for-science-reproducibility-tutorial/HEAD). You should see a screen like this:  
-<img src='Binder_screens\binder_loading.png?raw=true' width=50%> <br>
+<img src='Binder_screens/binder_loading.png?raw=true' width=50%> <br>
 This screen indicates that Binder is building the environment for you.  
 _This can take a while, so please be patient._  
 Once the environment is built, you should see a screen like this:  
-<img src='https://github.com/tbeucler/2023_MLEES_JB/blob/5ed5b4cd553f414f01f4207ffb0523bfa1a93afc/ML_EES/Milton/Binder_screens\binder_jplab.png?raw=true' width=50%> <br>
+<img src='https://github.com/tbeucler/2023_MLEES_JB/blob/5ed5b4cd553f414f01f4207ffb0523bfa1a93afc/ML_EES/Milton/Binder_screens/binder_jplab.png?raw=true' width=50%> <br>
 Unlike with Colab, Binder launches a full instance of JupyterLab and not just the notebook interface. This allows you to open and edit multiple notebooks at the same time, and even to open other files (e.g., images, text files, etc.)! You can use the file explorer on the left plane to browse the contents of the repository, and you can open a notebook by double-clicking on it. Here is the first notebook in the repository, `0-basic-data-prep-and-model.ipynb`:  
-<img src='https://github.com/tbeucler/2023_MLEES_JB/blob/5ed5b4cd553f414f01f4207ffb0523bfa1a93afc/ML_EES/Milton/Binder_screens\binder_notebook.png?raw=true' width=50%> <br>
+<img src='https://github.com/tbeucler/2023_MLEES_JB/blob/5ed5b4cd553f414f01f4207ffb0523bfa1a93afc/ML_EES/Milton/Binder_screens/binder_notebook.png?raw=true' width=50%> <br>
 Note that if you want to run this notebook, at the time of writing, you should change the line  
 `DATA_FOLDER = Path("..") / "data"`  
 to  
@@ -87,11 +87,11 @@ Before we get into the installation, let's go over some basic terminology:
 - **Channel**: A channel is a source for packages. The default channel is the Anaconda channel, which contains packages that have been tested by the Anaconda team. Other channels include Conda-Forge, which contains packages that have been tested by the Conda-Forge team, and PyPI, which contains packages that have been uploaded by the community. Channels can be specified when installing packages using the `conda` command.
 
 ### Installing Miniconda
-To install Miniconda, you need to download the installer for your operating system from [here](https://docs.conda.io/en/latest/miniconda.html). Once you have downloaded the installer, you can run it to install Miniconda. To jump to the instructions for Linux, click [here](#linux-🐧). To jump to the instructions for Windows. The ones for Windows are right below.
+To install Miniconda, you need to download the installer for your operating system from [here](https://docs.conda.io/en/latest/miniconda.html). Once you have downloaded the installer, you can run it to install Miniconda. To jump to the instructions for Linux, click [here](#linux-🐧). The instructions for Windows are right below.
 <br>
 
 #### Windows 🗔
-Once you have downloaded the installer, run it and follow the instructions with the default settings. You should now have a program called `Anaconda Prompt` and `Anaconda Powershell Primpt` installed on your computer. These programs allows you to run commands in a terminal with the correct environment activated - let's start by opening 'Anaconda Powershell Prompt'. You should see a screen like this:  
+Once you have downloaded the installer, run it and follow the instructions with the default settings. You should now have a program called `Anaconda Prompt` and `Anaconda Powershell Prompt` installed on your computer. These programs allow you to run commands in a terminal with the correct environment activated - let's start by opening 'Anaconda Powershell Prompt'. You should see a screen like this:  
 <img src='https://github.com/tbeucler/2023_MLEES_JB/blob/5ed5b4cd553f414f01f4207ffb0523bfa1a93afc/ML_EES/Milton/Conda_screens/anaconda_powershell_prompt.png?raw=true' width=50%> <br>
 Notice the `(base)` at the beginning of the line - this indicates that the `base` environment is currently active. Let's create a new environment called `test_env` by running the following command:
 ```bash
@@ -296,7 +296,7 @@ git --version
 
 <br><br>
 
-#### Setting up your GirHub account
+#### Setting up your GitHub account
 You don't need to create an account on GitHub to clone a repository, but you will need one if you want to push changes to a repository. To create an account, go to [the sign-up section of the GitHub website](https://github.com/signup). You'll be asked to enter your email (**REMEMBER TO USE YOUR ACADEMIC EMAIL IF YOU'RE PLANNING TO REQUEST STUDENT/TEACHER BENEFITS**) in the following screen:  
 <img src='https://github.com/tbeucler/2023_MLEES_JB/blob/5ed5b4cd553f414f01f4207ffb0523bfa1a93afc/ML_EES/Milton/Git/github_signup.png?raw=true' width=50%> <br>
 Follow the prompts to create your account, and then verify your email address. You will then be asked for your preferences - if you're a student or teacher, you can apply for benefits associated with your status in this process. 
@@ -329,7 +329,7 @@ cat ~/.ssh/id_ed25519.pub
 <br><br>
 
 ##### Setting up an SSH key on Windows
-To set up an SSH key on Windows, **after you've installed Git* you'll need to:
+To set up an SSH key on Windows, **after you've installed Git** you'll need to:
 1. Open the start menu and search for `Powershell`. Right click on the icon and select `Run as administrator`.
 2. Activate the ssh-agent by running the following command:
 ```bash
@@ -382,7 +382,7 @@ VScode has a built-in Git interface that allows you to manage your repositories.
 If you now click on the Source Control icon (the one that looks like a set of circles joined by wires), you should see a screen like this (note that you may have to click on the "Manage Unsafe Repositories" button and select "Trust the authors" to manage the repository - this is, after all, a repository that you cloned from the internet from a user that you don't know):
 <img src='https://github.com/tbeucler/2023_MLEES_JB/blob/5ed5b4cd553f414f01f4207ffb0523bfa1a93afc/ML_EES/Milton/Git/vscode_source_control.png?raw=true' width=50%> <br>
 Whenever you make changes to your repository, you will be able to push and pull changes using the buttons at the top of the screen. You can also use the `+` and `...` buttons to stage and commit changes.  
-WE WONT BE GOING OVER HOW TO USE GIT IN THIS TUTORIAL, but you can find the documentation [here](https://code.visualstudio.com/docs/editor/versioncontrol).
+WE WON'T BE GOING OVER HOW TO USE GIT IN THIS TUTORIAL, but you can find the documentation [here](https://code.visualstudio.com/docs/editor/versioncontrol).
 Additionally, please don't try to push changes to the repository we cloned - it's not yours, and you don't have permission to do so. I'd also rather not to burden the repository owner with a bunch of pull requests from people who are just trying to learn how to use Git 😅.
 
 <br><br>
@@ -401,7 +401,7 @@ On the left, you should see a user icon with a green dot next to it. Click on it
 Accept any prompts that pop up, and you should be good to go! 😃  
 Now, whenever you are typing in a document within VSCode, you should see suggestions from Copilot pop up. You can accept these suggestions by pressing `Tab`.
 
-Finally, you can sign up for the GitHub Copilot Chat Beta here (https://github.com/github-copilot/chat_waitlist_signup/join) if you're interested in trying it out. The chat interface allows you to have a convenient way of interacting with Copilot - for example, here is a quick conversation asking Copilot to make an LDA (linead discriminant analysis) model that fits 5 randomly generated features:  
+Finally, you can sign up for the GitHub Copilot Chat Beta here (https://github.com/github-copilot/chat_waitlist_signup/join) if you're interested in trying it out. The chat interface allows you to have a convenient way of interacting with Copilot - for example, here is a quick conversation asking Copilot to make an LDA (linear discriminant analysis) model that fits 5 randomly generated features:  
 <img src='https://github.com/tbeucler/2023_MLEES_JB/blob/5ed5b4cd553f414f01f4207ffb0523bfa1a93afc/ML_EES/Milton/Git/5-feature_LDA.png?raw=true' width=50%> <br>
 Note that copilot can handle natural language requests, even with spelling mistakes! 😝
 The full text of the code is:

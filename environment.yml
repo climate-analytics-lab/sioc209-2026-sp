@@ -64,3 +64,5 @@ dependencies:
       - esem
       # Self-organising maps
       - minisom
+      # UMAP for dimensionality reduction
+      - umap-learn
